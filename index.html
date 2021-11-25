@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCQ Eng</title>
-  <script src="app.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -16,9 +15,9 @@
 </head>
 
 <body>
-
   <main>
-    <h1>English Term I - Literature</h1>
+    <div class="score">0</div>
+    <h1>English Term I</h1>
     <div class="question"></div>
     <div class="options">
       <div class="option option-a"></div>
@@ -31,6 +30,17 @@
     </div>
     <small>Created by Dipam Sen | Questions collected from various sources</p>
   </main>
+
+  <div class="modal">
+    <div class="modal-content">
+
+      <h1>YOUR SCORE</h1>
+      <h1 id="score-final">0</h1>
+      Refresh to restart.
+    </div>
+  </div>
+  <script src="app.js"></script>
+
 </body>
 
 </html>
